@@ -9,8 +9,9 @@ html, body {height: 100%;
     min-height: 500px;
      width: 350px;
     padding: 25px 15px 15px 15px;
-    background-color: #0b427a;
-    margin-top: auto;}
+    background-color: #063a6e;
+    margin-top: auto;
+    border-radius: 2px;}
 
 .results {display: flex;
     height: auto;
@@ -19,7 +20,7 @@ html, body {height: 100%;
     padding-right: 10px;
     justify-content: flex-end;
     align-items: center;
-    background-color: #ededed;
+    background-color: #ececec;
     font-size: 45px;
 }
 
@@ -54,13 +55,16 @@ button {box-sizing: border-box;
     width: 100%;
     font-size: xx-large;
     font-weight: 600;
-    background-color: #ededed ;}
+    background-color: #ececec;}
 
 .copy {margin-top: auto;
-    font-size: x-large}
+    font-size: 20px}
 
 .remain, .div ,.multi ,.add ,.menos ,.igual {background-color: rgb(195, 195,195);}
 
 button:hover {background-color: #293949;}
 
 .ac ,.c {background-color: rgb(241, 80, 88);color: #ededed;}
+
+.git {height: 20px;
+    width: 20px;}
